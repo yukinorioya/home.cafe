@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" >
+  <meta name="vieport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>素敵なホームカフェ</title>
+</head>
+<body>
+
+<header>
+  <img src="img/coffeebeans.jpg" alt="トップイメージ">
+  <div class="top-title">
+    Comfy<br>
+    HOME<br>
+    CAFE
+  </div>
+</header>
+<nav>
+  <ul>
+    <li>About</li>
+    <li>Menu</li>
+    <li>Plan</li>
+    <li>Access</li>
+    <li>Gallery</li>
+  </ul>
+</nav>
+<div class="menubuttom" onclick="menu()">
+  <i></i>
+  <i></i>
+  <i></i>
+</div>
+
+<main>
+  <h1>自宅カフェを楽しむ。</h1>
+  <div class="plan">
+    <img src="img/kitchen.jpg" alt="カウンターの写真">
+    <div class="comments">
+      <h2>親しみのある落ち着いた空間</h2>
+      <p>広すぎない、こじんまりとしたスペース。レストランのような騒がしさのない、落ち着いた空間でプライベートなひとときを。</p>
+    </div>
+  </div>
+  <div class="plan">
+    <img src="img/coffeetable.jpg" alt="の写真">
+    <div class="comments">
+      <h2>好きな方法でコーヒーを淹れるところから楽しめる</h2>
+      <p>おいしいコーヒーを自分で入れる。ドリップしながら香るコーヒー、本格エスプレッソを火で沸かす楽しさ。ミルクを入れてカフェオレにも。</p>
+      <div>＊ご希望の方はお気軽にお声かけください。</div>
+    </div>
+  </div>
+  
+</main>
+<aside>
+  <h2>News</h2>
+  <div class="news">
+    <div class="topic">
+      <div class="time">2021/07/30</div>
+      <div>台風に関する営業時間の変更お知らせ</div>
+    </div>
+    <div class="topic">
+      <div class="time">2021/07/05</div>
+      <div>公式Twitterがオープン</div>
+    </div>
+    <div class="topic">
+      <div class="time">2020/06/13</div>
+      <div>公式instagramがオープン</div>
+    </div>
+    <div class="topic">
+      <div class="time">2021/6/03</div>
+      <div>エチオピアコーヒー入荷！！</div>
+    </div>
+    <div class="topic">
+      <div class="time">2021/05/17</div>
+      <div>内装リニューアルしました!</div>
+    </div>
+  </div>
+</aside>
+<footer>
+  &copy;2021 comfy HOME CAFE
+</footer>
+<!-- ボタンをクリック -->
+<script>
+  function menu(){
+    document.querySelector('nav').classList.toggle('open');
+  }
+</script>
+</body>
+</html>
